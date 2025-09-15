@@ -1,1 +1,2 @@
 streamlit run src/app_streamlit.py
+nohup streamlit run src/app_streamlit.py --server.address=0.0.0.0 --server.port=8501 > darkai.log 2>&1 &
